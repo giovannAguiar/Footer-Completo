@@ -1,0 +1,63 @@
+/* estilo geral do footer */
+footer{
+    background-color: rgb(241, 136, 195);
+    color:beige;
+    padding: 40px 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.footer-section{
+    flex-basis: 23%;
+    margin-bottom: 20px;
+}
+.footer-section h4{
+    margin-bottom: 15px;
+    font-size: 18px;
+    color:pink;
+}
+.footer-section p,footer-section ul {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
+}
+.footer-section ul{
+    list-style-type: none;
+}
+.footer-section ul li{
+    margin-bottom: 10px;
+}
+.footer-section ul li a{
+    color: rgb(247, 72, 189);
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.footer-section ul li a:hover{
+    color: rgb(207, 186, 227);
+}
+.social-links a{
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.social-links a:hover{
+    color: rgb(246, 204, 234);
+}
+.footer-bottom{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 0;
+    border-top: 1px solid #444;
+    font-size: 14px;
+}
+.footer-bottom p{
+    margin: 0;
+}
